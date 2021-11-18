@@ -1,4 +1,10 @@
-.filter-list .filter {
+.filter-list {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.filter-list .filter-btn {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -21,13 +27,7 @@
   }
 }
 
-.filter-list {
-  display: flex;
-  margin-bottom: 50px;
-  justify-content: center;
-}
-
-.filter {
+.filter-btn {
   padding-top: 6px;
   padding-right: 22px;
   padding-bottom: 6px;
@@ -36,6 +36,6 @@
   border-color: transparent;
 }
 
-.filter-btn:not(:last-child) {
+.filter:not(:last-child) {
   margin-right: 8px;
 }
