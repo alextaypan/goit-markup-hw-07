@@ -13,10 +13,9 @@
   border-radius: 0px 0px 4px 4px;
 
   margin-right: 30px;
-}
-
-.team-list:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .member-container {
